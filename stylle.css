@@ -1,0 +1,168 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* body{
+    background-color: black;
+} */
+
+.header1{
+    background-color: rgb(65, 241, 179);
+    padding-left: 520px;
+    
+}
+
+.header2{ 
+
+    background-color: rgb(15, 28, 49);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-right: 200px;
+    height: 70px;
+    gap: 200px;
+}
+.header2 ul{
+    display: flex;
+    padding-top:  20px;
+}
+.header2 ul li{
+    list-style: none;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.header2 img{
+    padding-top: 20px;
+    
+}
+
+.header2 .icon .fa-shopify {
+    color: white;
+    /* padding-left: 20px; */
+    padding-top: 20px;
+    margin-left: 20px;
+    gap: 8px;
+   
+}
+
+
+.text-form{
+    background-color: rgb(15, 28, 49);
+    min-height: 100vh;
+}
+
+.mains{
+    display: flex;
+
+}
+.for-left{
+    margin-left: 160px;
+    margin-top: 100px;
+    color: white;
+
+}
+.for-left h1{
+    font-size: 3.1em;
+    font-style: normal;
+    font-weight: bolder;
+}
+.for-left p{
+    font-size: 1em;
+    font-weight: 100;
+}
+.for-left button{
+    background-color: rgb(65, 241, 179);
+    color: black;
+    box-shadow: 4px 4px 7px white ;
+    border: 1px white solid;
+    width: 270px;
+   
+    border-radius: 10px;
+    padding: 7px 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    
+}
+
+.for-right{
+    background-color: rgb(65, 241, 179);
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 220px;
+    border-radius: 20px;
+}
+
+.for-right img{
+    padding-top: 40px;
+}
+
+
+.icons{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding-top: 50px;
+
+}
+.icons i{
+    font-size: 1.5em;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+/* section two */
+
+.energy{
+    background-color: white;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+#bottle{
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+#bottle h1{
+    margin-top: 30px;
+    font-size: 2.5em;
+}
+.boxs{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 60px;
+    margin-left: 115px;
+}
+.box1{
+    margin-top: 30px;
+    
+    background-color: rgb(224, 229, 237);
+    width: 300px;
+    height: 350px;
+    border-radius: 14px;
+    box-shadow: 7px 7px 15px black;
+ 
+}
+.box1 img{
+ 
+    padding-left: 7px;
+    padding-top: 5px;
+    
+}
+.box1 h3{
+    padding-left: 15px;
+    padding-top: 25px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.box1 p{
+    padding-left: 14px;
+    padding-top: 25px;
+    font-weight: 100;
+    font-style: normal;
+}
